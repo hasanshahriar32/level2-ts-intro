@@ -67,3 +67,19 @@ const greatFriend = (...friends: string[]): void => {
 };
 
 greatFriend("hi", "bye", "khy");
+
+// Problem 2 🧨🧨
+// Write a function that takes in an array of objects with properties name and age, and returns only the objects where the person's age is greater than or equal to 18,
+
+const people = [
+  { name: "bob", age: 18 },
+  { name: "jane", age: 15 },
+  { name: "doe", age: 25 },
+];
+
+const ageCheck = (arr: any[]): object[] => {
+  const newArr = arr.filter((e) => e.age >= 18);
+  return newArr;
+};
+
+console.log(ageCheck(people));
