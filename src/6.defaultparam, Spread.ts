@@ -83,3 +83,4 @@ const ageCheck = (arr: any[]): object[] => {
 };
 
 console.log(ageCheck(people));
+console.log(ageCheck(people));
