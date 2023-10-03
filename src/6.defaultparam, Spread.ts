@@ -82,5 +82,11 @@ const ageCheck = (arr: any[]): object[] => {
   return newArr;
 };
 
-console.log(ageCheck(people));
-console.log(ageCheck(people));
+// console.log(ageCheck(people));
+// console.log(ageCheck(people));
+
+const greatFriends = (...friends: string[]): void => {
+  friends.forEach((e) => console.log(e));
+};
+greatFriends("hi", "bye", "khy");
+// console.log(greatFriends("hi", "bye", "khy"));
